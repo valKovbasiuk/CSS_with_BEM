@@ -449,8 +449,7 @@ template {
 .input-text {
   border: 0;
   border-bottom: 2px solid #05c4de;
-  line-height: 26px;
-  padding-left: 10px; }
+  line-height: 26px; }
 
 .active {
   cursor: default;
