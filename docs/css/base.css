@@ -309,6 +309,9 @@ template {
 .hidden {
   display: none; }
 
+.active {
+  color: #05c4de !important; }
+
 .uf-h3 {
   color: #05c4de;
   text-transform: uppercase; }
@@ -337,34 +340,30 @@ template {
 .logo__pic {
   width: 150px; }
 
-.nav__container {
-  list-style: none;
-  margin-right: 50px; }
-
-.nav__element {
-  line-height: 1.5;
-  text-transform: uppercase;
-  margin: 0 3px;
-  font-size: 15px; }
-
-.nav__element:hover {
-  background-color: #05c4de; }
-
-.nav__element:hover .nav__link {
-  color: white; }
-
-.nav--bordered .nav__element:after {
-  margin-left: 9px;
-  content: "";
-  height: 100%;
-  width: 0;
-  border-right: 2px solid #05c4de; }
-
-.nav--bordered .nav__element:last-of-type:after {
-  content: none; }
-
-.nav-horizontal .nav__element {
-  display: inline-block; }
+.nav {
+  padding: 0 15px; }
+  .nav__container {
+    list-style: none;
+    margin-right: 50px; }
+  .nav__element {
+    line-height: 1.5;
+    text-transform: uppercase;
+    margin: 0 3px;
+    font-size: 15px; }
+  .nav__element:hover {
+    background-color: #05c4de; }
+  .nav__element:hover .nav__link {
+    color: white; }
+  .nav--bordered .nav__element:after {
+    margin-left: 9px;
+    content: "";
+    height: 100%;
+    width: 0;
+    border-right: 2px solid #05c4de; }
+  .nav--bordered .nav__element:last-of-type:after {
+    content: none; }
+  .nav-horizontal .nav__element {
+    display: inline-block; }
 
 .link--decor-none {
   text-decoration: none;
@@ -418,15 +417,17 @@ template {
     grid-template-columns: 4 1fr; }
   .footer--row2 {
     grid-template-rows: auto; }
-  .footer__item--row1 {
-    grid-row-start: 1;
-    grid-row-end: span 1; }
-  .footer__item--row2 {
-    grid-row-start: 2;
-    grid-row-end: span 1; }
-  .footer__item--row2span {
-    grid-row-start: 1;
-    grid-row-end: span 2; }
+  .footer__item {
+    padding: 10px; }
+    .footer__item--row1 {
+      grid-row-start: 1;
+      grid-row-end: span 1; }
+    .footer__item--row2 {
+      grid-row-start: 2;
+      grid-row-end: span 1; }
+    .footer__item--row2span {
+      grid-row-start: 1;
+      grid-row-end: span 2; }
 
 .address {
   margin-top: 20px;
