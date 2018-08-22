@@ -309,9 +309,6 @@ template {
 .hidden {
   display: none; }
 
-.active {
-  color: #05c4de !important; }
-
 .uf-h3 {
   color: #05c4de;
   text-transform: uppercase; }
@@ -454,3 +451,9 @@ template {
   border-bottom: 2px solid #05c4de;
   line-height: 26px;
   padding-left: 10px; }
+
+.active {
+  cursor: default;
+  color: #05c4de; }
+  .active:hover {
+    background-color: initial; }
