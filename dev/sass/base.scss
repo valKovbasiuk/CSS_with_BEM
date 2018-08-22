@@ -15,10 +15,6 @@
     display: none;
 }
 
-.active {
-    color: $uf-color !important;
-}
-
 .uf {
     &-h3 {
         color: $uf-color;
@@ -207,4 +203,12 @@
     border-bottom: 2px solid $uf-color;
     line-height: 26px;
     padding-left: 10px;
+}
+
+.active {
+    cursor: default;
+    color: $uf-color !important;
+    &:hover {
+        background-color: initial;
+    }
 }
