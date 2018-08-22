@@ -13,24 +13,25 @@
 
     <div class="page-container">
         <header class="header">
-            <h1 class="logo"><img class="logo__pic" src="./img/logo.png" alt="company logo"></h1>
+            <h1 class="logo"><img class="logo__pic" src="./img/logo.svg" alt="company logo"></h1>
             <div class="header__navblock">
                 <nav class="nav nav-horizontal nav--bordered">
                     <ul class="nav__container">
-                        <li class="nav__element"><a class="link-decor_none" href="#">about us</a></li>
-                        <li class="nav__element"><a class="link-decor_none" href="#">founder</a></li>
-                        <li class="nav__element"><a class="link-decor_none" href="#">our companies</a></li>
-                        <li class="nav__element"><a class="link-decor_none" href="#">social investment</a></li>
-                        <li class="nav__element"><a class="link-decor_none" href="#">newsroom</a></li>
-                        <li class="nav__element"><a class="link-decor_none" href="#">contacts</a></li>
+                        <li class="nav__element bold"><a class="nav__link link--decor-none" href="#">about us</a></li>
+                        <li class="nav__element bold"><a class="nav__link link--decor-none" href="#">founder</a></li>
+                        <li class="nav__element bold"><a class="nav__link link--decor-none" href="#">our companies</a></li>
+                        <li class="nav__element bold"><a class="nav__link link--decor-none" href="#">social investment</a></li>
+                        <li class="nav__element bold"><a class="nav__link link--decor-none" href="#">newsroom</a></li>
+                        <li class="nav__element bold"><a class="nav__link link--decor-none" href="#">contacts</a></li>
                     </ul>
                 </nav>
 
-                <button class="btn search btn-noborder"></button>
-                <button class="btn btn-alone">EN</button>
+                <button class="btn btn--search">
+                </button>
+                <button class="btn btn--bordered">EN</button>
             </div>
         </header>
-        <main>
+        <main class="main">
             <figure class="hero">
                 <img class="hero__pic" src="./img/hero.png" alt="">
                 <figcaption></figcaption>
@@ -38,15 +39,48 @@
         </main>
 
 
-        <footer class="">
-            <div class="address">
-
+        <footer class="footer">
+            <div class="footer__item footer__item--row2span">
+                <h3 class="uf-h3">UA</h3>
+                <address class="address">
+                    13-15 Bolsunovska Street <br> IQ Business Centre <br> 01014 Kyiv, Ukraine <br> Tel/Fax: <b>+38 044 364
+                        38 28 </b> <br> E-mail: <b><a class="nav__link link--decor-none" href="#">click here</a></b>
+                </address>
             </div>
-            <div class="address"></div>
-            <div class=""></div>
-            <div class=""></div>
+            <div class="footer__item footer__item--row2span">
+                <h3 class="uf-h3">EU</h3>
+                <address class="address">
+                    168 Avenue de Cortenbergh <br> B-1000 Brussels <br> Tel: <b>+32 2 736 72 13</b> <br> Fax:  <b>+32 2 735
+                        16 01</b>
+                </address>
+            </div>
+            <nav class="nav footer__item footer__item--row2span">
+                <ul class="nav__container">
+                    <li class="nav__element bold"><a class="nav__link link--decor-none" href="#">about us</a></li>
+                    <li class="nav__element bold"><a class="nav__link link--decor-none" href="#">founder</a></li>
+                    <li class="nav__element bold"><a class="nav__link link--decor-none" href="#">our companies</a></li>
+                    <li class="nav__element bold"><a class="nav__link link--decor-none" href="#">social investment</a></li>
+                    <li class="nav__element bold"><a class="nav__link link--decor-none" href="#">newsroom</a></li>
+                    <li class="nav__element bold"><a class="nav__link link--decor-none" href="#">contacts</a></li>
+                </ul>
+            </nav>
+            <div class="footer__item footer__item--row1 social">
+                <h5 class="uf-h5">connect with us</h5>
+                <div class="btn-group">
+                    <a href="#" class="btn btn--bordered btn--fb"></a>
+                    <a href="#" class="btn btn--bordered btn--linkedin"></a>
+                    <a href="#" class="btn btn--bordered btn--youtube"></a>
+                </div>
+            </div>
+            <form class="footer__item footer__item--row2">
+                <h5 class="uf-h5">subscribe to news ––</h5>
+                <input class="input-text email" type="email">
+                <button class="btn btn--bordered"></button>
+            </form>
         </footer>
+        <div class="hidden">Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
     </div>
+
 </body>
 
 </html>
