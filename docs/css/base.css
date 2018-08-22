@@ -349,7 +349,7 @@ template {
     line-height: 1.5;
     text-transform: uppercase;
     margin: 0 3px;
-    font-size: 15px; }
+    font-size: 13px; }
   .nav__element:hover {
     background-color: #05c4de; }
   .nav__element:hover .nav__link {
@@ -370,6 +370,7 @@ template {
   color: black; }
 
 .btn {
+  position: relative;
   cursor: pointer;
   display: table-cell;
   border: 0;
@@ -404,6 +405,20 @@ template {
     border-right: 0; }
     .btn--bordered:last-child {
       border-right: 2px solid #05c4de; }
+  .btn--submit:after {
+    content: "";
+    position: absolute;
+    overflow: hidden;
+    display: inline-block;
+    font-size: 12px;
+    width: 12px;
+    height: 12px;
+    margin-top: -6px;
+    top: 50%;
+    border-top: 2px solid #000;
+    border-right: 2px solid #000;
+    transform: rotate(45deg);
+    right: 13px; }
 
 .main {
   margin: 20px 0; }
