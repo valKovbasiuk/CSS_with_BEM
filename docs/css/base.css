@@ -314,7 +314,8 @@ template {
   text-transform: uppercase; }
 
 .uf-h5 {
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  font-weight: normal; }
 
 .page-container {
   margin: 0 auto;
