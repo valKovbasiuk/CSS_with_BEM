@@ -1,2 +1,2 @@
 BEM (CSS) project
-[link](https://valkovbasiuk.github.io/ma_BEM/)
+[link](https://val.co.ua/CSS_with_BEM/)
